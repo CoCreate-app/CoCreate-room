@@ -1,5 +1,5 @@
 {
-  "name": "CoCreate-chart",
+  "name": "CoCreate-room",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CoCreate-app/CoCreate-charts.js.git"
+    "url": "git+https://github.com/CoCreate-app/CoCreate-room.js.git"
   },
   "author": "Frank Pagan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/CoCreate-app/CoCreate-charts.js/issues"
+    "url": "https://github.com/CoCreate-app/CoCreate-room.js/issues"
   },
-  "homepage": "https://github.com/CoCreate-app/CoCreate-charts.js#readme"
+  "homepage": "https://github.com/CoCreate-app/CoCreate-room.js#readme"
 }
