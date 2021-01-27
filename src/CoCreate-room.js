@@ -41,3 +41,5 @@ const CoCreateRoom = {
 }
 
 CoCreateRoom.init();
+
+export default CoCreateRoom;
