@@ -26,7 +26,7 @@ const CoCreateRoom = {
 			}
 			
 			if (!clients[key]) {
-				CoCreateSocket.create({
+				CoCreate.socket.create({
 					namespace,
 					room,
 					host
