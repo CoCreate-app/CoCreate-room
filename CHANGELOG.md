@@ -1,3 +1,11 @@
+## [1.0.2](https://github.com/CoCreate-app/CoCreate-room/compare/v1.0.1...v1.0.2) (2021-04-19)
+
+
+### Bug Fixes
+
+* ci and build process ([048b22b](https://github.com/CoCreate-app/CoCreate-room/commit/048b22b3186e39aa36e1641ebcdedad2a832fcc4))
+* npm publish and cdn deployment ([8cb621e](https://github.com/CoCreate-app/CoCreate-room/commit/8cb621e05e16d433b05c380d22f58f7dfd88e88d))
+
 ## [1.0.1](https://github.com/CoCreate-app/CoCreate-room/compare/v1.0.0...v1.0.1) (2021-03-29)
 
 
