@@ -11,12 +11,11 @@
         <meta name="robots" content="index,follow" />
        	<meta property="og:image" content="https://cdn.cocreate.app/docs/room.png">
         
-        <!-- CoCreate CSS -->
+        <!-- CoCreate CSS CDN -->
         <link rel="stylesheet" href="https://cdn.cocreate.app/latest/CoCreate.min.css" type="text/css"/>
-        <link rel="stylesheet" href="https://ws.cocreate.app/docs.css" data-collection="apples" data-document_id="6069ff5042ef8ff5175a5c8d" name="css" type="text/css"  />
     </head>
-
     <body>
+        
 		<nav class="nav display:flex align-items:center background:whitesmoke padding-top:10px padding-bottom:10px" data-main_content_id="content" data-scroll="sticky-nav,hide-nav" data-scroll_up="10" data-scroll_down="10" data-collection="components" data-document_id="60395ef42b3ac232657040fd" name="html">
 		</nav>
 		<sidenav id="menuL" class="cocreate-sidenav background:whitesmoke" data-main_content="content" sidenav-default_desktop="expanded" sidenav-default_tablet="offcanvas" sidenav-ontoggle_desktop="offcanvas" sidenav-ontoggle_tablet="expanded">
@@ -43,7 +42,7 @@
             <p class="max-width:500px margin:20px_10px line-height:1.5">A simple HTML5, CSS and pure javascript component. Easy configuration using data-attributes and highly styleable.</p>
             <div id="room-section" class="display:flex flex-wrap:wrap">
                 <div class="flex-grow:1 width:400px width:300px@xs padding:0px_10px margin-top:60px">
-                <div id="room-install" class="border-bottom:1px_solid_lightgrey" data-scroll data-scroll_intersect="color:dodgerblue" data-scroll_target="#boilerplate-install-section">
+                <div id="room-install" class="border-bottom:1px_solid_lightgrey" data-scroll data-scroll_intersect="color:dodgerblue" data-scroll_target="#room-install-section">
                         <span class="display:flex align-items:center width:fit-content" data-hover="display:block!important" data-hover_target='[href="#room-install"]'>
                             <h2 class="padding:5px_0px">Install</h2>
                             <a class="margin-left:10px display:none" href="#room-install"><i class="fas fa-link"></i></a>
@@ -53,7 +52,7 @@
                 <p class="padding:10px_0px line-height:1.5">Or you can use cdn link:</p>
                 <pre><code class="language-html">&lt;script&gt;https://cdn.cocreate.app/room/latest/CoCreate-room.min.js&lt;/script&gt;</code></pre>
 
-                <div id="room-usage" class="margin-top:80px border-bottom:1px_solid_lightgrey" data-scroll data-scroll_intersect="color:dodgerblue" data-scroll_target="#boilerplate-usage-section">
+                <div id="room-usage" class="margin-top:80px border-bottom:1px_solid_lightgrey" data-scroll data-scroll_intersect="color:dodgerblue" data-scroll_target="#room-usage-section">
                         <span class="display:flex align-items:center width:fit-content" data-hover="display:block!important" data-hover_target='[href="#room-usage"]'>
                             <h2 class="padding:5px_0px">Usage</h2>
                             <a class="margin-left:10px display:none" href="#room-usage"><i class="fas fa-link"></i></a>
@@ -68,7 +67,7 @@
                         <p class="padding:10px_0px line-height:1.5">This is room usage</p>
                         <p class="padding:10px_0px line-height:1.5">This is room usage</p>
                     </div>
-                    <div id="room-attributes" class="margin-top:80px border-bottom:1px_solid_lightgrey" data-scroll data-scroll_intersect="color:dodgerblue" data-scroll_target="#boilerplate-attributes-section">
+                    <div id="room-attributes" class="margin-top:80px border-bottom:1px_solid_lightgrey" data-scroll data-scroll_intersect="color:dodgerblue" data-scroll_target="#room-attributes-section">
                         <span class="display:flex align-items:center width:fit-content" data-hover="display:block!important" data-hover_target='[href="#room-attributes"]'>
                             <h2 class="padding:5px_0px">Attributes</h2>
                             <a class="margin-left:10px display:none" href="#room-attributes"><i class="fas fa-link"></i></a>
@@ -88,7 +87,7 @@
                 
                 <div class="flex-grow:1 width:300px padding:0px_10px margin-top:60px border-bottom:1px_solid_lightgrey">
                     <!-- SandBox -->
-                    <div id="room-demo" class="border-bottom:1px_solid_lightgrey" data-scroll data-scroll_intersect="color:dodgerblue" data-scroll_target="#boilerplate-demo-section">
+                    <div id="room-demo" class="border-bottom:1px_solid_lightgrey" data-scroll data-scroll_intersect="color:dodgerblue" data-scroll_target="#room-demo-section">
                         <span class="display:flex align-items:center width:fit-content" data-hover="display:block!important" data-hover_target='[href="#room-demo"]'>
                             <h2 class="padding:5px_0px">Demo</h2>
                             <a class="margin-left:10px display:none" href="#room-demo"><i class="fas fa-link"></i></a>
@@ -143,7 +142,11 @@
                 </div>
                 
             </div>				
-        </main>
+        	<button href="https://github.com/CoCreate-app/CoCreate-room/tree/master/docs/index.html?message=docs%3A%20describe%20your%20change..." target="_blank" class="position:fixed bottom:15px right:15px padding:15px background:dodgerblue grow-hover border-radius:50%">
+		        <i class="fas fa-pencil-alt"></i>
+	        </button>
+		</main>
+        
         <script>
             var config = {
                 apiKey: 'c2b08663-06e3-440c-ef6f-13978b42883a',
@@ -151,7 +154,7 @@
             }
         </script>
     
-        <!--CoCreateJS-->
+        <!--CoCreateJS CDN-->
         <script src="https://cdn.cocreate.app/latest/CoCreate.min.js" ></script>
     </body>
 </html>

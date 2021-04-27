@@ -1,121 +1,78 @@
-<html lang="en"><head>
-<meta charset="UTF-8">
-<title>CoCreate - Window</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--<link rel="stylesheet" href="../../../css/CoCreate.min.css" type="text/css" />-->
-
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdn.cocreate.app/latest/CoCreate.min.css" type="text/css"/>
-<link rel="stylesheet" href="https://cdn.cocreate.app/latest/CoCreate.min.css" type="text/css"/>
-</head>
-<body translate="no" style="padding: 20px">
-
-
-<form data-realtime="false"
-  data-collection="chart"
-  data-form_id="module-form">
-
-  <input type="number" 
-    data-module_id=""
-    name="Jan"
-    placeholder="January"
-    class="floating-label data-input"> 
-  
-  <input type="number"
-    data-module_id=""
-    name="Feb"
-    placeholder="February"
-    class="floating-label data-input"> 
-  
-  <input type="number"
-    data-module_id=""
-    name="Mar"
-    placeholder="March"
-    class="floating-label data-input">        
-  
-  <input type="number"
-    data-module_id=""
-    name="Apr"
-    placeholder="April"
-    class="floating-label data-input"> 
+<html lang="en">
+  <head>
+    <title>Room | CoCreateJS</title>
     
-  <input type="number"
-    data-module_id=""
-    name="May"
-    placeholder="May"
-    class="floating-label data-input"> 
-  <input type="number" 
-    data-module_id=""
-    name="Jun"
-    placeholder="June"
-    class="floating-label data-input"> 
-  <input type="number" 
-    data-module_id=""
-    name="Jul"
-    placeholder="July"
-    class="floating-label data-input">
+    <!-- CoCreate Favicon -->
+    <link rel="icon" href="https://cdn.cocreate.app/favicon.ico" type="image/ico" sizes="16x16">
+  </head>
+  <body translate="no" style="padding: 20px">
   
-  <input type="hidden" 
-    name="data-module_id"
-    value="5deb167e189f212c8ebd0137"
-    >
-  <!--<div data-array_name='permission'  data-module_id='' class="arrayField">-->
-  <!--  <input type="checkbox" value="create"><label>create</label><br>-->
-  <!--  <input type="checkbox" value="read"><label>read</label><br>-->
-  <!--  <input type="checkbox" value="update"><label>update</label><br>-->
-  <!--  <input type="checkbox" value="delete"><label>delete</label><br>-->
-  <!--</div>-->
   
-  <!--<select data-array_name="type" data-module_id="" class="arrayField">-->
-  <!--  <option value="leader">Lead</option>-->
-  <!--  <option value="customer">Customer</option>-->
-  <!--</select> -->
+    <form data-realtime="false"
+      data-collection="chart"
+      data-form_id="module-form">
     
-  <a class="submitBtn position:fixed bottom:15px right:15px bg-blue grow-hover round"><i class="far fa-save"></i></a>
-  
-  <!--<a class="submitBtn position:fixed bottom:15px right:15px bg-blue grow-hover round"><i class="far fa-save"></i></a>-->
-</form>
-
-    <!--<div id="example" class="template-wrapper row" data-template_id="template1"-->
-    <!--  data-fetch_collection="chart"-->
-    <!--  data-fetch_module="5deb167e189f212c8ebd0137"-->
-    <!--  data-order_by="Jan" -->
-    <!--  data-order_type="asc"-->
-    <!--  >-->
+      <input type="number" 
+        data-module_id=""
+        name="Jan"
+        placeholder="January"
+        class="floating-label data-input"> 
       
-    <!--  <div class="template" id="template1">-->
-    <!--    <p class="padding-20-lr" data-module_id="" name="Jan"></h5>-->
-    <!--  </div>-->
+      <input type="number"
+        data-module_id=""
+        name="Feb"
+        placeholder="February"
+        class="floating-label data-input"> 
+      
+      <input type="number"
+        data-module_id=""
+        name="Mar"
+        placeholder="March"
+        class="floating-label data-input">        
+      
+      <input type="number"
+        data-module_id=""
+        name="Apr"
+        placeholder="April"
+        class="floating-label data-input"> 
+        
+      <input type="number"
+        data-module_id=""
+        name="May"
+        placeholder="May"
+        class="floating-label data-input"> 
+      <input type="number" 
+        data-module_id=""
+        name="Jun"
+        placeholder="June"
+        class="floating-label data-input"> 
+      <input type="number" 
+        data-module_id=""
+        name="Jul"
+        placeholder="July"
+        class="floating-label data-input">
+      
+      <input type="hidden" 
+        name="data-module_id"
+        value="5deb167e189f212c8ebd0137"
+        >
+     
+        
+      <a class="submitBtn position:fixed bottom:15px right:15px bg-blue grow-hover round"><i class="far fa-save"></i></a>
+      
+      <!--<a class="submitBtn position:fixed bottom:15px right:15px bg-blue grow-hover round"><i class="far fa-save"></i></a>-->
+    </form>
     
-    <!--<button class="loadMore" data-engine_id="example">Load More</button>-->
-  
-
-<script>
-    var config = {
-      apiKey: 'c2b08663-06e3-440c-ef6f-13978b42883a',
-            organization_Id: '5de0387b12e200ea63204d6c'
-    }
-  </script>
-  
-  <!--CoCreateJS-->
-  <script src="https://cdn.cocreate.app/latest/CoCreate.min.js" ></script>
-
-  <!--<script src="https://server.cocreate.app/CoCreateCollaboration/dist/CoCreate-collaboration.min.js"></script>-->
-  <!--<script src="https://server.cocreate.app/CoCreate-components/CoCreate-input/src/CoCreate-input.js"></script>-->
-
-  <script>
-  function generateRandomData() {
-    return Math.floor(Math.random() * 200) - 100;
-  }
-  
-  var els = document.querySelectorAll(".data-input");
-  
-  for (var  i = 0; i < els.length; i++) {
-    var number = generateRandomData();
-    els[i].setAttribute("value", number);
-    els[i].parentNode.classList.add("active");
-  }
-  </script>
-
-</body></html>
+       
+    
+    <script>
+        var config = {
+          apiKey: 'c2b08663-06e3-440c-ef6f-13978b42883a',
+                organization_Id: '5de0387b12e200ea63204d6c'
+        }
+      </script>
+    
+      <!-- CoCreate JS CDN -->
+      <script src="https://cdn.cocreate.app/room/latest/CoCreate-room.min.js" ></script>
+  </body>
+</html>
