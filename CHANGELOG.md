@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/CoCreate-app/CoCreate-room/compare/v1.0.3...v1.0.4) (2021-04-27)
+
+
+### Bug Fixes
+
+* Update to readme, demo, added cdn scripts ([08158af](https://github.com/CoCreate-app/CoCreate-room/commit/08158af13e13763d823c108ba20ae10986fc7fcd))
+
 ## [1.0.3](https://github.com/CoCreate-app/CoCreate-room/compare/v1.0.2...v1.0.3) (2021-04-23)
 
 
