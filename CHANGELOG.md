@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/CoCreate-app/CoCreate-room/compare/v1.0.4...v1.0.5) (2021-04-27)
+
+
+### Bug Fixes
+
+* add host in docs ([8c38030](https://github.com/CoCreate-app/CoCreate-room/commit/8c38030dcd58a41b0fde7f1ae240c90aa9f19e96))
+
 ## [1.0.4](https://github.com/CoCreate-app/CoCreate-room/compare/v1.0.3...v1.0.4) (2021-04-27)
 
 
