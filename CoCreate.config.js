@@ -10,7 +10,7 @@ module.exports = {
             "path": "./docs/index.html",
             "collection": "files",
             "document_id": "6020941c3c260207bf49cac2",
-            "key": "html",
+            "key": "src",
             "data":{
                 "name": "room Doc",
                 "domains": ["cocreate.app", "server.cocreate.app", "ws.cocreate.app"],
