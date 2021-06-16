@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/CoCreate-app/CoCreate-room/compare/v1.0.5...v1.0.6) (2021-06-16)
+
+
+### Bug Fixes
+
+* added header for seo ([ef59ffe](https://github.com/CoCreate-app/CoCreate-room/commit/ef59ffed3b2318830af00821a7a2373e2869e051))
+
 ## [1.0.5](https://github.com/CoCreate-app/CoCreate-room/compare/v1.0.4...v1.0.5) (2021-04-27)
 
 
