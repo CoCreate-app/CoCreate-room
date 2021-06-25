@@ -1,3 +1,10 @@
+## [1.0.9](https://github.com/CoCreate-app/CoCreate-room/compare/v1.0.8...v1.0.9) (2021-06-25)
+
+
+### Bug Fixes
+
+* latest version numbers applied to all cocreate packages ([0ee070e](https://github.com/CoCreate-app/CoCreate-room/commit/0ee070e81589c7010e6ec666320e5305976f3747))
+
 ## [1.0.8](https://github.com/CoCreate-app/CoCreate-room/compare/v1.0.7...v1.0.8) (2021-06-24)
 
 
