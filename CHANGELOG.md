@@ -1,3 +1,10 @@
+## [1.0.10](https://github.com/CoCreate-app/CoCreate-room/compare/v1.0.9...v1.0.10) (2021-06-30)
+
+
+### Bug Fixes
+
+* automated and manual workflows ([606fba1](https://github.com/CoCreate-app/CoCreate-room/commit/606fba12cf2d01d1ebd3911ccbb4f2239110354e))
+
 ## [1.0.9](https://github.com/CoCreate-app/CoCreate-room/compare/v1.0.8...v1.0.9) (2021-06-25)
 
 
