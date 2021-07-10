@@ -1,3 +1,10 @@
+## [1.0.13](https://github.com/CoCreate-app/CoCreate-room/compare/v1.0.12...v1.0.13) (2021-07-10)
+
+
+### Bug Fixes
+
+* gitignore all logs ([03a98cd](https://github.com/CoCreate-app/CoCreate-room/commit/03a98cdb904243891b5373c1f02d92c6892ca7b2))
+
 ## [1.0.12](https://github.com/CoCreate-app/CoCreate-room/compare/v1.0.11...v1.0.12) (2021-07-07)
 
 
