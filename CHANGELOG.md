@@ -1,3 +1,11 @@
+## [1.0.14](https://github.com/CoCreate-app/CoCreate-room/compare/v1.0.13...v1.0.14) (2021-07-13)
+
+
+### Bug Fixes
+
+* add yarn lockfile to git ignore ([a8b3092](https://github.com/CoCreate-app/CoCreate-room/commit/a8b3092a24d5f12610d60ef788f366145bf31641))
+* remove yarn.lock ([1578fb8](https://github.com/CoCreate-app/CoCreate-room/commit/1578fb8e974639269266e073423fad4570044409))
+
 ## [1.0.13](https://github.com/CoCreate-app/CoCreate-room/compare/v1.0.12...v1.0.13) (2021-07-10)
 
 
