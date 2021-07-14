@@ -1,3 +1,10 @@
+## [1.0.15](https://github.com/CoCreate-app/CoCreate-room/compare/v1.0.14...v1.0.15) (2021-07-14)
+
+
+### Bug Fixes
+
+* upgrade all packages ([1bc50d7](https://github.com/CoCreate-app/CoCreate-room/commit/1bc50d721024e8aa27bf075cb05e83b50197cf60))
+
 ## [1.0.14](https://github.com/CoCreate-app/CoCreate-room/compare/v1.0.13...v1.0.14) (2021-07-13)
 
 
