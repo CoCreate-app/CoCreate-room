@@ -1,6 +1,6 @@
 {
   "name": "@cocreate/room",
-  "version": "1.0.13",
+  "version": "1.0.15",
   "description": "A simple room component in vanilla javascript. Easily configured using HTML5 data-attributes and/or JavaScript API.",
   "keywords": [
     "room",
@@ -61,6 +61,6 @@
     "webpack-log": "^3.0.1"
   },
   "dependencies": {
-    "@cocreate/docs": "^1.1.29"
+    "@cocreate/docs": "^1.1.32"
   }
 }
