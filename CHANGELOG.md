@@ -1,3 +1,11 @@
+## [1.0.16](https://github.com/CoCreate-app/CoCreate-room/compare/v1.0.15...v1.0.16) (2021-07-17)
+
+
+### Bug Fixes
+
+* init and update demos scripts ([26b5094](https://github.com/CoCreate-app/CoCreate-room/commit/26b5094f7f341af3cfcabeae117220c8ec65e4e9))
+* workflows ([e1e41c7](https://github.com/CoCreate-app/CoCreate-room/commit/e1e41c7062b7764dac75e288ce7e4d4b4a1c67ce))
+
 ## [1.0.15](https://github.com/CoCreate-app/CoCreate-room/compare/v1.0.14...v1.0.15) (2021-07-14)
 
 
